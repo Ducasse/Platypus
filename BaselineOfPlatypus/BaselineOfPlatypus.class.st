@@ -24,7 +24,13 @@ BaselineOfPlatypus >> baseline: spec [
 				spec
 					className: #ConfigurationOfPetitStepExpress;
 					versionString: #'development';
-					repository: 'http://smalltalkhub.com/mc/AlainPlantec/StepExpress/main/' ].			
+					repository: 'http://smalltalkhub.com/mc/AlainPlantec/StepExpress/main/' ].	
+	spec project: 'Fame' with: [
+				spec
+					className: #ConfigurationOfFame;
+					versionString: #'development';
+					loads: #('Core' );
+					repository: 'http://smalltalkhub.com/mc/Moose/Fame/main/' ].						
 			
 	spec 
 		package: 'Platypus' 
